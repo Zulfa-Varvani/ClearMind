@@ -108,7 +108,7 @@ class ChatBot extends Component {
     }
 
     onContentSizeChange() {
-        this.refs.scrollView.scrollToEnd({ animated: true });
+        // this.refs.scrollView.scrollToEnd({ animated: true });
     }
 
     onSliderValue(s) {
@@ -313,7 +313,7 @@ class ChatBot extends Component {
             <View style={styles.viewStyle}>
                 <ScrollView 
                     style={{ marginBottom: 10 }}
-                    ref="scrollView"
+                    // ref="scrollView"
                     // onScroll={this.handleScroll}
                     onContentSizeChange={() => { this.onContentSizeChange(); }}
                 >
@@ -355,4 +355,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export { ChatBot };
+export default ChatBot;
