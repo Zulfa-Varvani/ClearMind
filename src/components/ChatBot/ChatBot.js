@@ -4,7 +4,6 @@ import {
     ScrollView,
     AsyncStorage,
     StyleSheet,
-    // Keyboard
 } from 'react-native';
 import ChatFooter from './ChatFooter';
 import ChatBox from './ChatBox';
@@ -29,7 +28,6 @@ class ChatBot extends Component {
         customComponentText: null,
         previousChatLength: 0,
         chatInputButtonDisabled: true
-        // scrollViewHeight: 0
     }
 
     componentWillMount() {
@@ -50,39 +48,7 @@ class ChatBot extends Component {
         });
         this.state.previousValue.push(this.props.previousValue);
         this.state.currentChat = this.props.questions[0];
-        // this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', this._keyboardDidShow);
-        // this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', this._keyboardDidHide);
     }
-
-    // _keyboardDidShow = (e) => {
-    //     console.log('Keyboard show');
-    //     this.refs.scrollView.scrollTo({ 
-    //         x: 0, 
-    //         y: 0, 
-    //         animated: true 
-    //     });
-    //     this.refs.scrollView.scrollTo({ 
-    //         x: 0, 
-    //         y: 420, 
-    //         animated: true
-    //     });
-    // }
-
-    // _keyboardDidHide = () => {
-    //     console.log('Keyboard hide');
-    //     this.refs.scrollView.scrollTo({ 
-    //         x: 0, 
-    //         y: this.state.scrollViewHeight, 
-    //         animated: true
-    //     });
-    // }
-
-    // handleScroll = (event) => {
-    //     console.log(event.nativeEvent.contentOffset.y);
-    //     this.setState({ 
-    //         scrollViewHeight: event.nativeEvent.contentOffset.y
-    //     });
-    // }
 
     componentDidMount() {
         this.addToChatArray(uid, this.state.currentChat.message, false);
@@ -108,36 +74,11 @@ class ChatBot extends Component {
     }
 
     onContentSizeChange() {
-        // this.refs.scrollView.scrollToEnd({ animated: true });
     }
 
     onSliderValue(s) {
-        // let c = '';
-        // switch (Number(s.value)) {
-        //     case 1:
-        //         c = 'Not at all';
-        //         break;
-        //     case 2:
-        //         c = 'Very little';
-        //         break;
-        //     case 3:
-        //         c = 'Somewhat';
-        //         break;
-        //     case 4:
-        //         c = 'Quite a bit';
-        //         break;
-        //     case 5:
-        //         c = 'A lot';
-        //         break;
-        //     default:
-        // }
         this.saveUserInput(uid, s.marker);
-        //If value on check in slider is 5 navigate to SOS screen
-        // if (value === 5) {
-        //     this.props.navigateToSos();
-        // } else {
-            this.showNextChat(s.trigger);
-        // }
+        this.showNextChat(s.trigger);
     }
 
     onChoiceTouch(type, choice) {
@@ -179,7 +120,6 @@ class ChatBot extends Component {
             text = text.replace('{username}', this.state.username);
         }
 
-        //this.state.chatArray.push(<ChatBox user={user} key={key} text={text} />);
         if (!user) {
             setTimeout(() => 
             this.setState({ 
@@ -313,8 +253,6 @@ class ChatBot extends Component {
             <View style={styles.viewStyle}>
                 <ScrollView 
                     style={{ marginBottom: 10 }}
-                    // ref="scrollView"
-                    // onScroll={this.handleScroll}
                     onContentSizeChange={() => { this.onContentSizeChange(); }}
                 >
                     <ChatHeader chatHeader={this.props.chatHeader} />

@@ -25,7 +25,7 @@ const ChatButton = ({ onPress, children, style, disabled }) => {
 const styles = {
   textStyle: {
     alignSelf: 'center',
-    color: '#fff',
+    color: '#000000',
     fontSize: 14,
     fontWeight: '600',
     paddingTop: 10,
@@ -33,10 +33,10 @@ const styles = {
   },
   buttonStyle: {
     alignSelf: 'stretch',
-    backgroundColor: '#1991EB', //nice blue color, changed to grey with #8a8c91
+    backgroundColor: '#FBDA67', //nice blue color, changed to grey with #8a8c91
     borderRadius: 5,
     borderWidth: 1,
-    borderColor: '#1991EB',
+    borderColor: '#000000',
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 1

@@ -9,8 +9,7 @@ export default () => (
     <BackgroundGradient>
         <View style={styles.container}>
             <Text style={styles.textTitle}>ChatBot!</Text>
-            <ChatBot 
-                // ref='ChatBot'
+            <ChatBot
                 ChatBotID='CareBot'
                 showHeader={false}
                 questions={ChatFile.chatbot}

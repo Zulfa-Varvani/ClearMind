@@ -1,14 +1,16 @@
 import React, { useContext } from 'react';
-import { View, StyleSheet, Text, Image, ImageBackground, Linking, ScrollView} from 'react-native';
+import { View, StyleSheet, Text, Image, ImageBackground, ScrollView} from 'react-native';
 import BackgroundGradient from '../components/BackgroundGradient';
 import AppButton from '../components/AppButton';
 import { CountContext } from '../contexts/count';
 
 export default ({navigation}) => {
     const { count } = useContext(CountContext);
+    const { setCount } = useContext(CountContext);
     
     const handleButtonClick = () => {
-        Linking.openURL('https://www.google.ca/');
+        navigation.navigate('Root');
+        setCount(prev => (0));
     };
 
     return (
@@ -17,7 +19,15 @@ export default ({navigation}) => {
                 <Text style={styles.textTitle}>My Data</Text>
                 <ScrollView>
                     <View style={{ flexDirection: 'row', flex: 1, maxHeight: 100 }}>
-                        <Image source={require('../../assets/circle.png')} style={styles.image}/>
+                        <ImageBackground source={require('../../assets/circle.png')} style={styles.image}/>
+                        <Text style={{
+                            fontWeight: 'bold',
+                            position: 'absolute',
+                            textAlign: "center",
+                            fontSize: 30,
+                            bottom: 40,
+                            left: 20
+                        }}>{count}</Text>
                         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                             <Text style={[styles.textDescrp, { width: 200 }]}>
                                 You currently have {count} points. Want to redeem?
@@ -60,7 +70,8 @@ const styles = StyleSheet.create({
     image: {
         width: 75,
         height: 70,
-        marginRight: 30
+        marginRight: 30,
+        position: 'relative'
     },
     dataImage: {
         width: 300,
