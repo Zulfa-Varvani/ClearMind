@@ -1,0 +1,86 @@
+{
+    "chatbot": [
+        {
+            "id": "1",
+            "message": "Hello, there! It's CareBot, how are you today?",
+            "user": "false",
+            "custom": "false",
+            "customid": "",
+            "trigger": "2",
+            "end": "false"
+        },
+        {
+            "id": "2",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Bad", "trigger": "20","imageU": "", "imageS": ""},
+                {"value": "Good", "trigger": "3","imageU": "", "imageS": ""}
+            ],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "3",
+            "message": "That's awesome! Did you get to do some activities through this app?",
+            "user": "false",
+            "custom": "false",
+            "customid": "",
+            "trigger": "4",
+            "end": "false"
+        },
+        {
+            "id": "4",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "21","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "5","imageU": "", "imageS": ""}
+            ],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "5",
+            "message": "Well, I hope you had lots of fun! Be sure to check out our other features, and redeem your points for awesome gifts!",
+            "user": "false",
+            "custom": "false",
+            "customid": "",
+            "trigger": "6",
+            "end": "false"
+        },
+        {
+            "id": "6",
+            "message": "Have a great rest of your day. You'll be taken to the Menu page!",
+            "user": "false",
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "20",
+            "message": "I'm really sorry to hear that. Have you checked out the features on this app to help you?",
+            "user": "false",
+            "custom": "false",
+            "customid": "",
+            "trigger": "4",
+            "end": "false"
+        },
+        {
+            "id": "21",
+            "message": "I can point you to some features. Personally I love the breathing website under 'Resources' to help me calm down. I'll take you there now, and you can check out the other cool resources",
+            "user": "false",
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        }
+    ]
+}

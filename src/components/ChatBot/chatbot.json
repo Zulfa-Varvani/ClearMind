@@ -1,0 +1,1181 @@
+{
+    "onboarding": [
+        {
+            "id": "1",
+            "message": "Hi {previousValue}!\n\nThis app will be in touch to provide personalized support through notifications.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "2",
+            "end": "false"
+        },
+        {
+            "id": "2",
+            "message": "Let’s take a few minutes to learn more about you to plan notifications. Ready?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "3",
+            "end": "false"
+        },
+        {
+            "id": "3",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Maybe Later", "trigger": "45","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "4","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "4",
+            "message": "Great! Let's get started.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "5",
+            "end": "false"
+        },
+        {
+            "id": "5",
+            "message": "The first questions are about goal-setting. You can set a goal and receive reminders or change it later.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "6",
+            "end": "false"
+        },
+        {
+            "id": "6",
+            "message": "Think about what goal you might like to set to change your gambling behaviour.\n\nFor example: \"My goal is to completely stop going to the casino\" or \"My goal is to only spend $100 a month on gambling\"",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "7",
+            "end": "false"
+        },
+        {
+            "id": "7",
+            "message": "What is your goal?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "8",
+            "end": "false"
+        },
+        {
+            "id": "8",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "9",
+            "end": "false"
+        },
+        {
+            "id": "9",
+            "message": "Thanks for sharing your goal.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "10",
+            "end": "false"
+        },
+        {
+            "id": "10",
+            "message": "When setting a goal, it can help to think about why the goal is important to you and how reaching it will benefit you.\n\nFor example: \"This goal is important to me because it will help save me money and pay my bills\"",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "11",
+            "end": "false"
+        },
+        {
+            "id": "11",
+            "message": "Why is this goal important to you?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "12",
+            "end": "false"
+        },
+        {
+            "id": "12",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "13",
+            "end": "false"
+        },
+        {
+            "id": "13",
+            "message": "Thanks for sharing that.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "14",
+            "end": "false"
+        },
+        {
+            "id": "14",
+            "message": "Reviewing you goal now and then can be helpful. This app can send a notification so you can review your goal. When do want to receive these notifications?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "15",
+            "end": "false"
+        },
+        {
+            "id": "15",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Weekly", "trigger": "46", "imageU": "", "imageS": ""},
+                {"value": "Bi-Weekly", "trigger": "46", "imageU": "", "imageS": ""},
+                {"value": "Monthly", "trigger": "46", "imageU": "", "imageS": ""},
+                {"value": "No Thanks", "trigger": "19", "imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "46",
+            "message": "What day do would you like the reminder?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "47",
+            "end": "false"
+        },
+        {
+            "id": "47",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Show Calendar", "trigger": "48","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "48",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Calendar",
+            "trigger": "16",
+            "end": "false"
+        },
+        {
+            "id": "16",
+            "message": "What time of day is best?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "17",
+            "end": "false"
+        },
+        {
+            "id": "17",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Select Time of Day", "trigger": "18","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "18",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Time",
+            "trigger": "19",
+            "end": "false"
+        },
+        {
+            "id": "19",
+            "message": "Now let's chat about gambling urges.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "20",
+            "end": "false"
+        },
+        {
+            "id": "20",
+            "message": "Having money can trigger an urge to gamble. Does this happen to you?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "21",
+            "end": "false"
+        },
+        {
+            "id": "21",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "36","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "22","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "22",
+            "message": "Do you receive money bi-weekly, monthly, both, or not at all?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "23",
+            "end": "false"
+        },
+        {
+            "id": "23",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Bi-weekly", "trigger": "24","imageU": "", "imageS": ""},
+                {"value": "Monthly", "trigger": "24","imageU": "", "imageS": ""},
+                {"value": "Both", "trigger": "27","imageU": "", "imageS": ""},
+                {"value": "No", "trigger": "33","imageU": "", "imageS": ""}],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "24",
+            "message": "When is the next time you are getting your {previousValue} payment?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "25",
+            "end": "false"
+        },
+        {
+            "id": "25",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Show Calendar", "trigger": "26","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "26",
+            "end": "false"
+        },
+        {
+            "id": "26",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Calendar",
+            "trigger": "34",
+            "end": "false"
+        },
+        {
+            "id": "27",
+            "message": "When is the next time you are getting your bi-weekly payment?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "28",
+            "end": "false"
+        },
+        {
+            "id": "28",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Show Calendar", "trigger": "29","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "29",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Calendar",
+            "trigger": "30",
+            "end": "false"
+        },
+        {
+            "id": "30",
+            "message": "When is the next time you are getting your monthly payment?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "31",
+            "end": "false"
+        },
+        {
+            "id": "31",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Show Calendar", "trigger": "32","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "32",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Calendar",
+            "trigger": "34",
+            "end": "false"
+        },
+        {
+            "id": "33",
+            "message": "If you are in need of income support, check out the financial and employment information in Resources.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "36",
+            "end": "false"
+        },
+        {
+            "id": "34",
+            "message": "Thanks {username}.\nWhen do you want to receive a notification close to the date you receive money?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "35",
+            "end": "false"
+        },
+        {
+            "id": "35",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Day Prior", "trigger": "36","imageU": "", "imageS": ""},
+                {"value": "Day Of", "trigger": "36","imageU": "", "imageS": ""},
+                {"value": "Day After", "trigger": "36","imageU": "", "imageS": ""},
+                {"value": "All", "trigger": "36","imageU": "", "imageS": ""},
+                {"value": "None", "trigger": "36","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "36",
+            "message": "Do you feel urges to gamble at specific times of the day?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "37",
+            "end": "false"
+        },
+        {
+            "id": "37",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "43","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "38","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "38",
+            "message": "Select the time(s) below.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "39",
+            "end": "false"
+        },
+        {
+            "id": "39",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "true",
+            "options": [
+                {"value": "Morning", "trigger": "40", "imageU": "MorningU", "imageS": "Morning"},
+                {"value": "Afternoon", "trigger": "40", "imageU": "AfternoonU", "imageS": "Afternoon"},
+                {"value": "Evening", "trigger": "40", "imageU": "EveningU", "imageS": "Evening"},
+                {"value": "Night", "trigger": "40", "imageU": "NightU", "imageS": "Night"}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "40",
+            "message": "You identified some times when you may experience urges to gamble. When do you want to receive the notification?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "41",
+            "end": "false"
+        },
+        {
+            "id": "41",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Show Time Picker", "trigger": "42","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "42",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Time",
+            "trigger": "43",
+            "end": "false"
+        },
+        {
+            "id": "43",
+            "message": "You've finished personalising the app. Remember, you can adjust your notifications in the Settings. Would you like to receive notifications from this app?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "44",
+            "end": "false"
+        },
+        {
+            "id": "44",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "45","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "45","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "45",
+            "message": "Thanks.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "true"
+        }
+    ],
+    "checkin": [
+        {
+            "id": "1",
+            "message": "How are you feeling?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "2",
+            "end": "false"
+        },
+        {
+            "id": "2",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Happy", "trigger": "18", "imageU": "Happy", "imageS": "HappyU"},
+                {"value": "Lonely", "trigger": "19", "imageU": "Lonely", "imageS": "LonelyU"},
+                {"value": "Ashamed", "trigger": "19", "imageU": "Ashamed", "imageS": "AshamedU"},
+                {"value": "Angry", "trigger": "19", "imageU": "Angry", "imageS": "AngryU"},
+                {"value": "Sad", "trigger": "19", "imageU": "Sad", "imageS": "SadU"},
+                {"value": "Anxious", "trigger": "19", "imageU": "Anxious", "imageS": "AnxiousU"},
+                {"value": "Lucky", "trigger": "20", "imageU": "Lucky", "imageS": "LuckyU"},
+                {"value": "Bored", "trigger": "19", "imageU": "Bored", "imageS": "BoredU"},
+                {"value": "Excited", "trigger": "20", "imageU": "Excited", "imageS": "ExcitedU"}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "18",
+            "message": "That is great to hear, {username}!",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "5",
+            "end": "false"
+        },
+        {
+            "id": "19",
+            "message": "Thanks for sharing that, {username}. I hope I can be of help for you today.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "5",
+            "end": "false"
+        },
+        {
+            "id": "20",
+            "message": "Thanks for sharing that, {username}.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "5",
+            "end": "false"
+        },
+        {
+            "id": "3",
+            "message": "Is feeling this way making you want to gamble?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "4",
+            "end": "false"
+        },
+        {
+            "id": "4",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "Yes", "trigger": "5", "imageU": "", "imageS": ""},
+                {"value": "No", "trigger": "5", "imageU": "", "imageS": ""},
+                {"value": "Not Sure", "trigger": "5", "imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "5",
+            "message": "How much do you feel like gambling right now?\nUse the slider scale to show how much.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "6",
+            "end": "false"
+        },
+        {
+            "id": "6",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [
+                {"value": "1", "trigger": "21", "marker": "Not at all"},
+                {"value": "2", "trigger": "7", "marker": "Very little"},
+                {"value": "3", "trigger": "8", "marker": "Somewhat"},
+                {"value": "4", "trigger": "8", "marker": "Quite a bit"},
+                {"value": "5", "trigger": "9", "marker": "A lot"}
+            ],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "21",
+            "message": "I'm really happy to hear that you aren't feeling an urge to gamble. Do you mind sharing something you are grateful for?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "22",
+            "end": "false"
+        },
+        {
+            "id": "22",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "14",
+            "end": "false"
+        },
+        {
+            "id": "7",
+            "message": "I'm really happy to hear that you aren't feeling an urge to gamble. Here are some resources to check out.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "10",
+            "end": "false"
+        },
+        {
+            "id": "8",
+            "message": "Sounds like you are feeling somewhat urged to gamble. Here are some resources to help to manage that.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "11",
+            "end": "false"
+        },
+        {
+            "id": "9",
+            "message": "Sorry to hear that, {username}. Would you like to go to the SOS screen?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "12",
+            "end": "false"
+        },
+        {
+            "id": "10",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Low",
+            "trigger": "14",
+            "end": "false"
+        },
+        {
+            "id": "11",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "High",
+            "trigger": "14",
+            "end": "false"
+        },
+        {
+            "id": "12",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "11","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "13","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "13",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "SOS",
+            "trigger": "",
+            "end": "true"
+        },
+        {
+            "id": "14",
+            "message": "There are some other resources you can check out. Would you like to go to them now?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "15",
+            "end": "false"
+        },
+        {
+            "id": "15",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "16","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "17","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "16",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Home",
+            "trigger": "",
+            "end": "true"
+        },
+        {
+            "id": "17",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Resources",
+            "trigger": "",
+            "end": "true"
+        }
+    ],
+    "goals": [
+        {
+            "id": "1",
+            "message": "It's often good to review how you're doing on your goal.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "2",
+            "end": "false"
+        },
+        {
+            "id": "2",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "ReviewGoal",
+            "trigger": "3",
+            "end": "false"
+        },
+        {
+            "id": "3",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "ReviewGoalImportance",
+            "trigger": "4",
+            "end": "false"
+        },
+        {
+            "id": "4",
+            "message": "So {username}, how well do you think you’re doing on your goal?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "5",
+            "end": "false"
+        },
+        {
+            "id": "5",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [
+                {"value": "1", "trigger": "6", "marker": "Not at all well"},
+                {"value": "2", "trigger": "6", "marker": "Slightly well"},
+                {"value": "3", "trigger": "7", "marker": "Somewhat well"},
+                {"value": "4", "trigger": "8", "marker": "Very well"},
+                {"value": "5", "trigger": "8", "marker": "Extremely well"}
+            ],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "6",
+            "message": "Remember that change isn’t easy so just keep going, {username}! Would you like to head to the Resources Screen for some resources that will help you stay on track to meet your goal?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "9",
+            "end": "false"
+        },
+        {
+            "id": "7",
+            "message": "Good work, {username}! Would you like to head to the Resources Screen for some resources that will help you stay on track to meet your goal?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "9",
+            "end": "false"
+        },
+        {
+            "id": "8",
+            "message": "Great work, {username}! Keep going! What has been working for you?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "10",
+            "end": "false"
+        },
+        {
+            "id": "9",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "12","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "11","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "10",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "12",
+            "end": "false"
+        },
+        {
+            "id": "11",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Resources",
+            "trigger": "",
+            "end": "true"
+        },
+        {
+            "id": "12",
+            "message": "Would you like to mark your goal as complete?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "13",
+            "end": "false"
+        },
+        {
+            "id": "13",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "15","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "14","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "14",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "GoalComplete",
+            "trigger": "15",
+            "end": "false"
+        },
+        {
+            "id": "15",
+            "message": "Would you like to set a new goal?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "16",
+            "end": "false"
+        },
+        {
+            "id": "16",
+            "message": "",
+            "user": "true",
+            "multipleOptionsSelect": "false",
+            "options": [
+                {"value": "No", "trigger": "17","imageU": "", "imageS": ""},
+                {"value": "Yes", "trigger": "18","imageU": "", "imageS": ""}
+            ],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "false"
+        },
+        {
+            "id": "17",
+            "message": "",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "true",
+            "customid": "Home",
+            "trigger": "",
+            "end": "true"
+        },
+        {
+            "id": "18",
+            "message": "Great! Let's get started.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "19",
+            "end": "false"
+        },
+        {
+            "id": "19",
+            "message": "This section is about setting goals which can be helpful. You can set a goal and let us know if you want reminders about it. You can update or change your goal whenever you want.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "20",
+            "end": "false"
+        },
+        {
+            "id": "20",
+            "message": "Think about one goal you'd like to set to change your gambling.\n\nFor example: \"My goal is to completely stop going to the casino\" or \"My goal is to only spend $100 a month on gambling\"",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "21",
+            "end": "false"
+        },
+        {
+            "id": "21",
+            "message": "What is your goal?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "22",
+            "end": "false"
+        },
+        {
+            "id": "22",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "23",
+            "end": "false"
+        },
+        {
+            "id": "23",
+            "message": "That sounds like a good goal, {username}. Thanks for sharing your goal.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "24",
+            "end": "false"
+        },
+        {
+            "id": "24",
+            "message": "When setting a goal, it can help to think about why the goal is important to you and how reaching it will benefit you.\n\nFor example: \"This goal is important to me because it will help save me money and pay my bills\"",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "25",
+            "end": "false"
+        },
+        {
+            "id": "25",
+            "message": "Why is this goal important to you?",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "26",
+            "end": "false"
+        },
+        {
+            "id": "26",
+            "message": "",
+            "user": "true",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "27",
+            "end": "false"
+        },
+        {
+            "id": "27",
+            "message": "Thanks for sharing.\n\nYou will now be redirected to the Home Screen.",
+            "user": "false",
+            "options": [],
+            "slider": [],
+            "custom": "false",
+            "customid": "",
+            "trigger": "",
+            "end": "true"
+        }
+    ]
+}
